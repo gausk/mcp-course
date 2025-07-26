@@ -7,5 +7,5 @@ if [ ! -f pyproject.toml ]; then
 fi
 uv venv --clear
 source .venv/bin/activate
-uv add arxiv python-dotenv anthropic
+uv add arxiv python-dotenv mcp anthropic nest_asyncio
 uv run chat.py
